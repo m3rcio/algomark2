@@ -227,14 +227,23 @@ textarea{
 }
 
 footer{
+    width: 100%;
     background-color: rgb(33, 161, 247);
     padding-top: 40px;
     padding-bottom: 40px;
     color: white;
 }
 
+footer h4{
+    color: white;
+}
+footer .row{
+    
+    width: 100%;
+}
+
 footer li{
-    border: 1px solid black;
+    
     align-items: center;
      display: flex;
     align-items: center;
