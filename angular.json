@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "browser": "src/main.ts",  
-            "outputPath": "dist/algomark2/browser",
+            "outputPath": "dist/algomark2",
             "index": "src/index.html",
             "polyfills": [
               "zone.js"
