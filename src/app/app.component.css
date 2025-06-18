@@ -129,7 +129,7 @@ ul{
     
     .selected-bar{
         width: 100%;
-        background-color: rgb(33, 161, 247);;
+        background-color: rgb(33, 161, 247);
         padding: 5px;
     }
     .seccao-clientes-destacados{
@@ -224,6 +224,22 @@ h2,p{
 textarea{
      width: 240px;
      border-radius: 12px;
+}
+
+footer{
+    background-color: rgb(33, 161, 247);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+footer li{
+    border: 1px solid black;
+    align-items: center;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
 }
 
 @media(max-width:767px){
