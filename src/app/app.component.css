@@ -209,6 +209,12 @@ ul{
     text-indent: 25px;
 }
 
+.input-container i {
+  position: relative;
+  left: -230px;
+  color: #21001C;
+}
+
 .titulo1-form,p{
     width: 500px;
 }
