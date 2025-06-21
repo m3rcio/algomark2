@@ -12,7 +12,7 @@ body{
 
     header{
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
     border-bottom: 1px solid black;
     position: sticky;
     }
@@ -28,11 +28,20 @@ body{
         font-weight: bold;
     }
 
+    .menu-btn{
+        display: none;
+    }
+
 .cabecalho{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     margin-right: 20px;
+}
+
+.cabecalho span{
+    margin-left: 30px;
+    cursor: pointer;
 }
 
 .cabecalho li{
