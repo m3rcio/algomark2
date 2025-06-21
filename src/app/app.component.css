@@ -115,8 +115,14 @@ ul{
         margin-top: 100px;
         display: flex;
         flex-direction: row;
+
     }
 
+    .featured-work i{
+        color: #21001C;
+        font-size: 20pt;
+    }
+    
     .featured-work ul{
         display: flex;
         flex-direction: row;
@@ -270,7 +276,6 @@ footer .row{
 }
 
 footer li{
-    /* border: 1px solid black; */
     align-items: center;
      display: flex;
     flex-direction: row;
