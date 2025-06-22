@@ -303,6 +303,8 @@ footer li{
        header ul{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        border: 1px solid black;
     }
 
     .cabecalho{
@@ -311,7 +313,7 @@ footer li{
         z-index: 1;
         background-color: rgba(255, 255, 255, 0.993);
         color: #000000;
-        width: 100vw;
+        width: 100%;
     }
 
      .menu-btn{
@@ -329,6 +331,55 @@ footer li{
     .menu{
         display: flex;
         flex-direction: column;
+        
     }
+
+
+    .featured-work {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-work ul {
+    flex-direction: row;
+  }
+
+  .featured-work ul li {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .seccao-conquistas h1,
+  .seccao-conquistas p,
+  .seccao-conquistas h4,
+  .titulo1-form,
+  .seccao-sobre-nos p {
+    width: 90%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .input-container i {
+    left: 0;
+    position: static;
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+  .form-btn,
+  textarea {
+    width: 90%;
+    max-width: 300px;
+  }
+
+    .row {
+    flex-direction: column !important;
+  }
+
+  .col-lg-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
 
 }
