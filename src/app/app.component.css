@@ -54,7 +54,7 @@ ul{
 #hero{
     width: 100%;
     /* background-color: rgb(33, 161, 247); */
-    background-image: url('/assets/images/hero_background2.png');
+    background-image: url('/assets/images/hero_background3.png');
     background-size: cover;
     border-top: 1px solid black;
 }
@@ -64,7 +64,7 @@ ul{
 }
 
 #hero h1,h4{
-    color: #21001C;
+    color: #fff;
 }
 
  .menu{
@@ -84,6 +84,9 @@ ul{
          text-align: center; 
         width: 100%;
     }
+    #hero p{
+        color: #fff;
+    }
 
     .our-work{
         margin-top: 160px;
@@ -91,7 +94,7 @@ ul{
         align-items: center;
         flex-direction: column;
         text-align: center;
-        color: #21001C;
+        color: #fff;
     }
     .our-work p{
         width: 400px;
