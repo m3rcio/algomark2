@@ -171,6 +171,10 @@ ul{
         align-items: center;
         color: #21001C;
     }
+
+    .seccao-clientes-destacados img{
+        width:100%;
+    }
    
     
     .seccao-conquistas{
@@ -189,6 +193,10 @@ ul{
     .seccao-conquistas h4,.seccao-clientes-destacados h1{
         font-weight: bold;
     }
+
+    .seccao-conquistas h4{
+        color: #21001C;
+    }
     .row{
         width: 100%;
     }
@@ -205,14 +213,14 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FEDA4B;
-    color: #21001C;
+    background-color: rgb(23, 123, 211);
+    color: #fff;
 }
 .seccao-sobre-nos h1{
     font-weight: bold;
 }
 .seccao-sobre-nos p{
-    width:800px;
+    width:800px;color: #fff;
 }
 
 .contacte-nos h1{
@@ -263,7 +271,7 @@ textarea{
 }
 
 footer{
-    background-color: rgb(33, 161, 247);
+    background-color: rgb(23, 123, 211);
     padding-top: 40px;
     padding-bottom: 40px;
     color: white;
