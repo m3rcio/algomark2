@@ -154,7 +154,7 @@ ul{
     
     .selected-bar{
         width: 100%;
-        background-color: rgb(33, 161, 247);
+        background-color: transparent;
         padding: 5px;
     }
     .seccao-clientes-destacados{
