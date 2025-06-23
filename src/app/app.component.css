@@ -307,6 +307,11 @@ footer li{
         border: 1px solid black;
     }
 
+    #hero{
+         background-color: rgb(23, 123, 211);
+         background-image: none;
+    }
+
     .cabecalho{
         display: none;
         position: absolute;
@@ -338,23 +343,34 @@ footer li{
     .featured-work {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .featured-work ul {
+    width: 100%;
     flex-direction: row;
+    justify-content: stretch;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .featured-work ul li {
-    width: 100%;
-    max-width: 300px;
+    width: 90px;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  .our-work-btn-text{
+    font-size: small;
   }
 
   .seccao-conquistas h1,
   .seccao-conquistas p,
   .seccao-conquistas h4,
-  .titulo1-form,
+  .titulo1-form,.contacte-nos p,.content p,
   .seccao-sobre-nos p {
-    width: 90%;
+    width: 80%;
     max-width: 100%;
     text-align: center;
   }
